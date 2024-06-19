@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: cursive;
+
+}
+video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+    
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+ .frame{
+    
+    backdrop-filter:blur(5px);
+    z-index: 1px;
+    height: 600px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px cyan , -10px -10px 15px sandybrown;
+
+
+}
+
+
+
+
+ .heading{
+ text-align: center;
+ padding: 10px;
+ font-size: 20px;
+ color: aqua;
+
+}
+#display
+{
+    backdrop-filter:blur(50px) ;
+    color: white;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    background: transparent;
+    box-shadow:  inset 2px 2px 10px rgb(30, 232, 251), inset -5px -5px 10px white;
+    font-size: 30px;
+    padding: 10px;
+ box-sizing: border-box;
+
+}
+.buttons-group{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+
+}
+ .button{
+    height: 85px;
+    width: 85px;
+    border: none;
+    outline: none;
+font-size: x-large;
+box-shadow: 5px 5px 10px pink, -5px -5px 10px cyan ; 
+background: wheat;
+border-radius: 20px;
+
+ }
+ 
+
+ 
+ .button:active{
+    box-shadow: inset 0 0 30px 10px red;
+    
+ }
+  .button:hover{
+color: aqua;
+background-color: aliceblue;
+
+
+  }
+
+  .copyright{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    padding: 25px 0;
+    
+    font-weight: 300;
+    margin-top: 20px;
+    color: red;
+    
+}
+.copyright i{
+ color: #ff004f;
+}
